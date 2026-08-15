@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "alibaba-java-guidelines-skills",
+  "version": "1.0.0",
+  "description": "《阿里巴巴Java开发手册（黄山版）》324 条规约的 skill 化版本，修复了 PDF 提取造成的串档、等级标记破损、页码粘连等系统性缺陷，并按语言无关性重写触发条件。",
+  "owner": {
+    "name": "qingtiandamowang",
+    "url": "https://github.com/qingtiandamowang"
+  },
+  "plugins": [
+    {
+      "name": "alibaba-java-guidelines",
+      "source": "./",
+      "skills": [
+        "./skills/java-coding-standards",
+        "./skills/java-design-standards",
+        "./skills/java-exception-logging",
+        "./skills/java-mysql-database",
+        "./skills/java-project-structure",
+        "./skills/java-security-standards",
+        "./skills/java-unit-testing",
+        "./skills/error-code-catalog"
+      ],
+      "description": "《阿里巴巴Java开发手册（黄山版）》324 条规约的 skill 化版本，修复了 PDF 提取造成的串档、等级标记破损、页码粘连等系统性缺陷，并按语言无关性重写触发条件。",
+      "version": "1.0.0",
+      "author": {
+        "name": "qingtiandamowang",
+        "url": "https://github.com/qingtiandamowang"
+      },
+      "homepage": "https://github.com/qingtiandamowang/alibaba-java-guidelines-skills",
+      "repository": "https://github.com/qingtiandamowang/alibaba-java-guidelines-skills",
+      "license": "Apache-2.0",
+      "keywords": [
+        "alibaba",
+        "java",
+        "coding-standards",
+        "mysql",
+        "security",
+        "code-review",
+        "skill",
+        "p3c"
+      ]
+    }
+  ]
+}
